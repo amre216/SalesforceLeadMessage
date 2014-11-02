@@ -19,6 +19,8 @@ namespace SalesForceLeadMessages.Controllers
                 ViewBag.instanceUrl = Request.QueryString["instance_url"].ToString();
                 ViewBag.LoggedIn = true;
 
+                string test = null;
+
                 var leads = new Lead().GetLeads(Request.QueryString["instance_url"].ToString(), Request.QueryString["api"].ToString(), Request.QueryString["token"].ToString());
 
             }
