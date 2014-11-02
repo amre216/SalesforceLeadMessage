@@ -21,6 +21,8 @@ namespace SalesForceLeadMessages.Controllers
 
                 string test = null;
 
+                string gitTest = "Get test change";
+
                 var leads = new Lead().GetLeads(Request.QueryString["instance_url"].ToString(), Request.QueryString["api"].ToString(), Request.QueryString["token"].ToString());
 
             }
