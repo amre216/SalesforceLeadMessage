@@ -8,6 +8,6 @@ namespace SalesForceLeadMessages.Models
     public class Developing2BranchTest
     {
         public string developingTwoBranchTest;
-
+        public string addedThisToTheBracnh;
     }
 }
