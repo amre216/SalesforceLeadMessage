@@ -12,6 +12,7 @@ namespace SalesForceLeadMessages.Controllers
         // GET: /Lead/
         public ActionResult Index()
         {
+            string gitTest = "Another git test";
             return View();
         }
 	}
