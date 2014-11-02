@@ -10,5 +10,6 @@ namespace SalesForceLeadMessages.Models
         public string developingTwoBranchTest;
         public string addedThisToTheBracnh;
         public int hereIAddedThisToMasterBranch;
+        public string thenIAddedThisToBranch;
     }
 }
